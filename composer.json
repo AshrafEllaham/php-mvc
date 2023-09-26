@@ -1,0 +1,14 @@
+{
+    "name": "learn/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "Learn\\PhpMvc\\": "src/",
+            "App\\": "App/" 
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.3",
+      "ext-http": "*"
+    }
+}
